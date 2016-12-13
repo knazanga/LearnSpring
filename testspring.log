@@ -1,0 +1,154 @@
+2016-12-13 20:58:34.745  INFO 13246 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.2.RELEASE)
+
+
+2016-12-13 20:58:34.870  INFO 13246 --- [main] knazanga.spring.TestSpringApplication    : Starting TestSpringApplication on knazanga-ThinkPad-W520 with PID 13246 (/home/knazanga/workspace/TestSpring/target/classes started by knazanga in /home/knazanga/workspace/TestSpring)
+2016-12-13 20:58:34.870  INFO 13246 --- [main] knazanga.spring.TestSpringApplication    : No active profile set, falling back to default profiles: default
+2016-12-13 20:58:34.948  INFO 13246 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38c5cc4c: startup date [Tue Dec 13 20:58:34 CET 2016]; root of context hierarchy
+2016-12-13 20:58:36.212  INFO 13246 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-13 20:58:36.237  INFO 13246 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-13 20:58:36.387  INFO 13246 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.11.Final}
+2016-12-13 20:58:36.388  INFO 13246 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-12-13 20:58:36.390  INFO 13246 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-12-13 20:58:36.439  INFO 13246 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-12-13 20:58:37.076  INFO 13246 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-13 20:58:37.711  INFO 13246 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2016-12-13 20:58:37.846  INFO 13246 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2016-12-13 20:58:38.350  INFO 13246 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-12-13 20:58:38.368  INFO 13246 --- [main] knazanga.spring.TestSpringApplication    : Started TestSpringApplication in 3.976 seconds (JVM running for 4.491)
+2016-12-13 20:58:38.416  INFO 13246 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2016-12-13 20:58:38.659  INFO 13246 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@38c5cc4c: startup date [Tue Dec 13 20:58:34 CET 2016]; root of context hierarchy
+2016-12-13 20:58:38.663  INFO 13246 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-12-13 20:58:38.663  INFO 13246 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-12-13 21:08:13.119  INFO 13405 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.2.RELEASE)
+
+
+2016-12-13 21:08:13.242  INFO 13405 --- [main] knazanga.spring.TestSpringApplication    : Starting TestSpringApplication on knazanga-ThinkPad-W520 with PID 13405 (/home/knazanga/workspace/TestSpring/target/classes started by knazanga in /home/knazanga/workspace/TestSpring)
+2016-12-13 21:08:13.242  INFO 13405 --- [main] knazanga.spring.TestSpringApplication    : No active profile set, falling back to default profiles: default
+2016-12-13 21:08:13.327  INFO 13405 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38c5cc4c: startup date [Tue Dec 13 21:08:13 CET 2016]; root of context hierarchy
+2016-12-13 21:08:14.717  INFO 13405 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-13 21:08:14.741  INFO 13405 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-13 21:08:14.890  INFO 13405 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.11.Final}
+2016-12-13 21:08:14.892  INFO 13405 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-12-13 21:08:14.893  INFO 13405 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-12-13 21:08:14.943  INFO 13405 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-12-13 21:08:15.489  INFO 13405 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-13 21:08:15.975  INFO 13405 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2016-12-13 21:08:16.076  INFO 13405 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2016-12-13 21:08:16.529  INFO 13405 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-12-13 21:08:16.558  INFO 13405 --- [main] knazanga.spring.TestSpringApplication    : Started TestSpringApplication in 3.793 seconds (JVM running for 4.279)
+2016-12-13 21:08:16.605  INFO 13405 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2016-12-13 21:08:16.941  INFO 13405 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@38c5cc4c: startup date [Tue Dec 13 21:08:13 CET 2016]; root of context hierarchy
+2016-12-13 21:08:16.944  INFO 13405 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-12-13 21:08:16.945  INFO 13405 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-12-13 21:11:25.015  INFO 13640 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.2.RELEASE)
+
+
+2016-12-13 21:11:25.097  INFO 13640 --- [main] knazanga.spring.TestSpringApplication    : Starting TestSpringApplication on knazanga-ThinkPad-W520 with PID 13640 (/home/knazanga/workspace/TestSpring/target/classes started by knazanga in /home/knazanga/workspace/TestSpring)
+2016-12-13 21:11:25.097  INFO 13640 --- [main] knazanga.spring.TestSpringApplication    : No active profile set, falling back to default profiles: default
+2016-12-13 21:11:25.168  INFO 13640 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38c5cc4c: startup date [Tue Dec 13 21:11:25 CET 2016]; root of context hierarchy
+2016-12-13 21:11:26.370  INFO 13640 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-13 21:11:26.387  INFO 13640 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-13 21:11:26.523  INFO 13640 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.11.Final}
+2016-12-13 21:11:26.524  INFO 13640 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-12-13 21:11:26.525  INFO 13640 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-12-13 21:11:26.567  INFO 13640 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-12-13 21:11:27.137  INFO 13640 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-13 21:11:27.938  INFO 13640 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2016-12-13 21:11:28.075  INFO 13640 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2016-12-13 21:11:28.622  INFO 13640 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-12-13 21:11:28.642  INFO 13640 --- [main] knazanga.spring.TestSpringApplication    : Started TestSpringApplication in 3.891 seconds (JVM running for 4.316)
+2016-12-13 21:11:28.687  INFO 13640 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2016-12-13 21:11:28.912  INFO 13640 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@38c5cc4c: startup date [Tue Dec 13 21:11:25 CET 2016]; root of context hierarchy
+2016-12-13 21:11:28.914  INFO 13640 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-12-13 21:11:28.915  INFO 13640 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-12-13 21:25:40.102  INFO 13853 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.2.RELEASE)
+
+
+2016-12-13 21:25:40.182  INFO 13853 --- [main] knazanga.spring.TestSpringApplication    : Starting TestSpringApplication on knazanga-ThinkPad-W520 with PID 13853 (/home/knazanga/workspace/TestSpring/target/classes started by knazanga in /home/knazanga/workspace/TestSpring)
+2016-12-13 21:25:40.182  INFO 13853 --- [main] knazanga.spring.TestSpringApplication    : No active profile set, falling back to default profiles: default
+2016-12-13 21:25:40.241  INFO 13853 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38c5cc4c: startup date [Tue Dec 13 21:25:40 CET 2016]; root of context hierarchy
+2016-12-13 21:25:41.457  INFO 13853 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-13 21:25:41.483  INFO 13853 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-13 21:25:41.642  INFO 13853 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.11.Final}
+2016-12-13 21:25:41.643  INFO 13853 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-12-13 21:25:41.644  INFO 13853 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-12-13 21:25:41.679  INFO 13853 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-12-13 21:25:42.388  INFO 13853 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-13 21:25:42.864  INFO 13853 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2016-12-13 21:25:42.873  INFO 13853 --- [main] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: book
+2016-12-13 21:25:42.874  INFO 13853 --- [main] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: book
+2016-12-13 21:25:42.896  INFO 13853 --- [main] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: user
+2016-12-13 21:25:42.896  INFO 13853 --- [main] rmationExtractorJdbcDatabaseMetaDataImpl : HHH000262: Table not found: user
+2016-12-13 21:25:42.998  INFO 13853 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2016-12-13 21:25:43.416  INFO 13853 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-12-13 21:25:43.434  INFO 13853 --- [main] knazanga.spring.TestSpringApplication    : Started TestSpringApplication in 3.595 seconds (JVM running for 4.007)
+2016-12-13 21:25:43.473  INFO 13853 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2016-12-13 21:25:43.724  INFO 13853 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@38c5cc4c: startup date [Tue Dec 13 21:25:40 CET 2016]; root of context hierarchy
+2016-12-13 21:25:43.726  INFO 13853 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-12-13 21:25:43.726  INFO 13853 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2016-12-13 21:26:46.430  INFO 13926 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.2.RELEASE)
+
+
+2016-12-13 21:26:46.511  INFO 13926 --- [main] knazanga.spring.TestSpringApplication    : Starting TestSpringApplication on knazanga-ThinkPad-W520 with PID 13926 (/home/knazanga/workspace/TestSpring/target/classes started by knazanga in /home/knazanga/workspace/TestSpring)
+2016-12-13 21:26:46.512  INFO 13926 --- [main] knazanga.spring.TestSpringApplication    : No active profile set, falling back to default profiles: default
+2016-12-13 21:26:46.586  INFO 13926 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38c5cc4c: startup date [Tue Dec 13 21:26:46 CET 2016]; root of context hierarchy
+2016-12-13 21:26:48.034  INFO 13926 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-12-13 21:26:48.059  INFO 13926 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-12-13 21:26:48.220  INFO 13926 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.11.Final}
+2016-12-13 21:26:48.222  INFO 13926 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-12-13 21:26:48.224  INFO 13926 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-12-13 21:26:48.282  INFO 13926 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-12-13 21:26:48.912  INFO 13926 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-12-13 21:26:49.548  INFO 13926 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2016-12-13 21:26:49.704  INFO 13926 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2016-12-13 21:26:50.367  INFO 13926 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-12-13 21:26:50.396  INFO 13926 --- [main] knazanga.spring.TestSpringApplication    : Started TestSpringApplication in 4.313 seconds (JVM running for 4.83)
+2016-12-13 21:26:50.537  INFO 13926 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2016-12-13 21:26:50.876  INFO 13926 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@38c5cc4c: startup date [Tue Dec 13 21:26:46 CET 2016]; root of context hierarchy
+2016-12-13 21:26:50.879  INFO 13926 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-12-13 21:26:50.881  INFO 13926 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
